@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="1.AOccJxG6LI=7mSJ,$6" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="vj3ylX^!WZ.-7=2.q2P7">mySprite</variable><variable type="KIND_SpriteKind" id="Lbqan}QdA}.,rz|X7/ji">Player</variable><variable type="KIND_SpriteKind" id="EoreG{1m_r=Kd!k%gmgQ">Projectile</variable><variable type="KIND_SpriteKind" id="zCHYGZmogekasn4I2M}q">Food</variable><variable type="KIND_SpriteKind" id=".RZAKUFP:JobMVWgF`mZ">Enemy</variable></variables><block type="pxt-on-start" id="1.AOccJxG6LI=7mSJ,$6" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="VO|QuWMyRrvF=^?0Qp=O"><field name="VAR" id="vj3ylX^!WZ.-7=2.q2P7">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="5l]7BH@9H5($j`kp|z91"><value name="img"><shadow type="screen_image_picker" id="oN[{!Krgar+5Ixo6QsFE"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 d 4 c . . 
+. . . . b 5 5 1 f f d d 4 4 4 b 
+. . . . b 5 5 d f b 4 4 4 4 b . 
+. . . b d 5 5 5 5 4 4 4 4 b . . 
+. . b d d 5 5 5 5 5 5 5 5 b . . 
+. b d d d d 5 5 5 5 5 5 5 5 b . 
+b d d d b b b 5 5 5 5 5 5 5 b . 
+c d d b 5 5 d c 5 5 5 5 5 5 b . 
+c b b d 5 d c d 5 5 5 5 5 5 b . 
+. b 5 5 b c d d 5 5 5 5 5 d b . 
+b b c c c d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"oN[{!Krgar+5Ixo6QsFE"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ybcpSo?zZ4eWynnlC)!y"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="S(Hx]4Znms3BSsC3UGAH"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="$Il-wMD8/?Us~uzPuM1J"><field name="VAR" id="vj3ylX^!WZ.-7=2.q2P7">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="_toj]kiUsMqojZ8[kF9;"><field name="speed">180</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id=".[0/`HxIWhdOz6D]/t6u"><field name="speed">360</field></shadow></value><next><block type="camerafollow" id="n4!hciy7cbUV^]b+E#zk"><value name="sprite"><block type="variables_get" id="xeG-e0L_o!RM1[D~lBu!"><field name="VAR" id="vj3ylX^!WZ.-7=2.q2P7">mySprite</field></block></value><next><block type="gamesetbackgroundimage" id=")`RYI)fQ5kX9JBspLG*{"><value name="img"><shadow type="background_image_picker" id="pi]I`(k(Ov3jqIBs3T*J"><field name="img">assets.image`myImage`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="scroller_scrollBackgroundWithCamera" id="%Y2pnal+J%op4yj61a?9"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="mode">scroller.CameraScrollMode.OnlyVertical</field><value name="layer"><shadow type="scroller_backgroundLayer" id="|~3YYwiw$.qxrKWWtL]l"><field name="layer">scroller.BackgroundLayer.Layer0</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
